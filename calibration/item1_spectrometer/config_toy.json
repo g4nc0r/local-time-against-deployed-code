@@ -1,0 +1,20 @@
+{
+  "_comment": "Toy validation configuration: known jump measure, synthetic geometry mix. NOT census-derived; every number here is invented for the toy run.",
+  "seed": 20260812,
+  "n_pools": 6,
+  "world": {"B": 400000, "sigma": 1.0, "mu": 0.0, "lam": 0.012,
+            "z0": 7.5, "alpha": 2.5},
+  "population": {
+    "operators_per_pool": 8,
+    "geometry_mix": [
+      {"weight": 0.4, "w_over_sigma": 7.5, "period": 1},
+      {"weight": 0.2, "w_over_sigma": 12.0, "period": 1},
+      {"weight": 0.2, "w_over_sigma": 7.5, "period": 5},
+      {"weight": 0.1, "w_over_sigma": 7.5, "pen": 4.0, "period": 1},
+      {"weight": 0.1, "w_over_sigma": 5.0, "period": 10, "dwell": 3}
+    ]
+  },
+  "inversion": {"kappa": 3.0, "abar": 10, "trail_blocks": 43200,
+                "o_ref": 15.0, "min_events": 300},
+  "out": "spectrometer_toy_results.json"
+}

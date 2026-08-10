@@ -1,0 +1,72 @@
+{
+ "block_seconds": 12.0,
+ "window_blocks": 863543,
+ "window_days": 119.93652777777778,
+ "n_position_events": 42150,
+ "n_firings": 1086,
+ "A_firing_position": {
+  "n": 924,
+  "interior_fraction": 0.2186,
+  "q10": -0.0314,
+  "q50": 1.35,
+  "q90": 2.425
+ },
+ "B_exit_delay_blocks": {
+  "n": 707,
+  "_note": "delay >= 1 by construction (the tick cache holds one entry per block, searched strictly before the firing block), identically on both chains. Same-block correction is reading C.",
+  "mass_at_0_structural_zero": 0.0,
+  "mass_le_1": 0.1273,
+  "q50": 331,
+  "q90": 11599,
+  "q50_seconds": 3972.0,
+  "q90_seconds": 139188.0
+ },
+ "C_same_block_adjacency": {
+  "firings": 1086,
+  "own_swap_share": 0.2182,
+  "external_swap_share": 0.4622,
+  "backrun_share": 0.1436,
+  "frontrun_share": 0.3895,
+  "sandwich_share": 0.0709,
+  "null": {
+   "_what": "expected counts if the firing sat at a uniformly random position among the block's external swaps; excess over this is placement, agreement is ambient traffic",
+   "firings_with_external_swaps": 502,
+   "mean_external_swaps_in_those_blocks": 2.09,
+   "expected_backrun": 300.9,
+   "observed_backrun": 156,
+   "expected_frontrun": 300.9,
+   "observed_frontrun": 423,
+   "expected_sandwich": 99.9,
+   "observed_sandwich": 77,
+   "backrun_excess_ratio": 0.518,
+   "sandwich_excess_ratio": 0.771
+  }
+ },
+ "D_jit": {
+  "_what": "mint-then-burn inside one block is JIT; burn-then-mint of the same range is fee compounding, counted apart",
+  "jit_positions": 2714,
+  "jit_share_of_position_events": 0.1288,
+  "same_range_remints": 893,
+  "remint_share_of_position_events": 0.0424
+ },
+ "per_pool": {
+  "WETH/USDC 500": {
+   "firings": 872,
+   "backrun": 152,
+   "sandwich": 77,
+   "jit": 2604
+  },
+  "WETH/USDC 3000": {
+   "firings": 128,
+   "backrun": 2,
+   "sandwich": 0,
+   "jit": 102
+  },
+  "WBTC/WETH 3000": {
+   "firings": 86,
+   "backrun": 2,
+   "sandwich": 0,
+   "jit": 8
+  }
+ }
+}

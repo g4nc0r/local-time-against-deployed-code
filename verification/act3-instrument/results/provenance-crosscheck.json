@@ -1,0 +1,67 @@
+{
+ "census_pools": 50,
+ "extension_pools": 44,
+ "shared_pools": 6,
+ "pools": {
+  "0x7c7420dd105e2779316423ba3e973f434315efa9": {
+   "shared_blocks": 345230,
+   "exact_match": 0.8745,
+   "within_1_tick": 0.9696,
+   "max_abs_diff_ticks": 94,
+   "extension_block_range": [
+    44751172,
+    46848362
+   ]
+  },
+  "0x85fb468a5e65a537c5ac767776599708a3d41046": {
+   "shared_blocks": 19169,
+   "exact_match": 0.912,
+   "within_1_tick": 0.9223,
+   "max_abs_diff_ticks": 701671,
+   "extension_block_range": [
+    43990049,
+    45747588
+   ]
+  },
+  "0x8bb9eaf3c5a906d20c4cc10ea2f73a3ac2d5d41a": {
+   "skipped": "no shared blocks"
+  },
+  "0x95dada6bc214a86af204250f7b6ff873b52e0289": {
+   "shared_blocks": 136546,
+   "exact_match": 0.8673,
+   "within_1_tick": 0.9109,
+   "max_abs_diff_ticks": 202,
+   "extension_block_range": [
+    43990018,
+    45748129
+   ]
+  },
+  "0x9e48d016ee76cf53e2de8dc8058c7549c8c202df": {
+   "shared_blocks": 44324,
+   "exact_match": 0.8527,
+   "within_1_tick": 0.9123,
+   "max_abs_diff_ticks": 293,
+   "extension_block_range": [
+    43990013,
+    45748013
+   ]
+  },
+  "0xf840346fafedc1c0466216f3a899a599e6d03e75": {
+   "shared_blocks": 9751,
+   "exact_match": 0.9583,
+   "within_1_tick": 0.986,
+   "max_abs_diff_ticks": 200,
+   "extension_block_range": [
+    44050044,
+    45747068
+   ]
+  }
+ },
+ "summary": {
+  "pools_checked": 5,
+  "total_shared_blocks": 555020,
+  "min_exact_match": 0.8527,
+  "min_within_1_tick": 0.9109,
+  "max_abs_diff_ticks": 701671
+ }
+}

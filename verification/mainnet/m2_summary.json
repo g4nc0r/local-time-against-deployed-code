@@ -1,0 +1,220 @@
+{
+ "era": [
+  24763430,
+  25626973
+ ],
+ "pools": {
+  "0x32d9259e6792b2150fd50395d971864647fa27b2": [
+   "0x3206/0xC02a",
+   3000
+  ],
+  "0x93620949fb692040a69bf7ecea2d080b9869b489": [
+   "0xC02a/0xC669",
+   3000
+  ],
+  "0x168e9b3c9ddfb013a4130276f9c500a3ce50fde7": [
+   "0xA0b8/0xf280",
+   3000
+  ],
+  "0x433a00819c771b33fa7223a5b3499b24fbcd1bbc": [
+   "0x77E0/0xC02a",
+   10000
+  ],
+  "0x0c2b6bf7322a3cceb47c7ba74f2c75a19f530f11": [
+   "0xC02a/0xEDB1",
+   10000
+  ],
+  "0x127452f3f9cdc0389b0bf59ce6131aa3bd763598": [
+   "0xC02a/0xD31a",
+   3000
+  ],
+  "0x6f161ad0e297ecb9d1b33c048272ccc964cb4b6a": [
+   "0x90a1/0xA0b8",
+   100
+  ],
+  "0x7b1e5d984a43ee732de195628d20d05cfabc3cc7": [
+   "0xC02a/0xfAbA",
+   3000
+  ],
+  "0x0e55db2d5e07cc6b067f352ba35a6beafb33c282": [
+   "0xC02a/0xf280",
+   3000
+  ],
+  "0x2a8ff49323d42be0af7a1b2f3005b67da55e0c6b": [
+   "0x8e72/0xC02a",
+   3000
+  ],
+  "0x99ac8ca7087fa4a2a1fb6357269965a2014abc35": [
+   "0x2260/0xA0b8",
+   3000
+  ],
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640": [
+   "0xA0b8/0xC02a",
+   500
+  ],
+  "0xb76726b4befe761a1859c1c02e7d157142e077c0": [
+   "0xC02a/0xF913",
+   3000
+  ],
+  "0xb986a32f468edad2f2f890094ea39ae484fbcaf4": [
+   "0xA5cd/0xC02a",
+   3000
+  ],
+  "0x2c2226a6381e68a86c1a8dcb8d9fdab050959dd5": [
+   "0x28D4/0xA0b8",
+   3000
+  ],
+  "0xe0554a476a092703abdb3ef35c80e0d76d32939f": [
+   "0xA0b8/0xC02a",
+   100
+  ],
+  "0x2982d3295a0e1a99e6e88ece0e93ffdfc5c761ae": [
+   "0x77E0/0xC02a",
+   3000
+  ],
+  "0x5ab53ee1d50eef2c1dd3d5402789cd27bb52c1bb": [
+   "0x7Fc6/0xC02a",
+   3000
+  ],
+  "0x3416cf6c708da44db2624d63ea0aaef7113527c6": [
+   "0xA0b8/0xdAC1",
+   100
+  ],
+  "0x6771dc01d5796db631e7743daf359f2412d308df": [
+   "0xC02a/0xC210",
+   10000
+  ],
+  "0x948b54a93f5ad1df6b8bff6dc249d99ca2eca052": [
+   "0xaea4/0xC02a",
+   10000
+  ],
+  "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed": [
+   "0x2260/0xC02a",
+   3000
+  ],
+  "0x553e9c493678d8606d6a5ba284643db2110df823": [
+   "0xae78/0xC02a",
+   100
+  ],
+  "0x48da0965ab2d2cbf1c17c09cfb5cbe67ad5b1406": [
+   "0x6B17/0xdAC1",
+   100
+  ],
+  "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8": [
+   "0x5149/0xC02a",
+   3000
+  ],
+  "0xc3db44adc1fcdfd5671f555236eae49f4a8eea18": [
+   "0x57e1/0xC02a",
+   3000
+  ],
+  "0x6546055f46e866a4b9a4a13e81273e3152bae5da": [
+   "0x6874/0xdAC1",
+   500
+  ],
+  "0xf763bb342eb3d23c02ccb86312422fe0c1c17e94": [
+   "0x77E0/0xA0b8",
+   10000
+  ],
+  "0xabaebcc9eee363cea2150ee03ac96db110f0e745": [
+   "0x323c/0xC02a",
+   3000
+  ],
+  "0xf649df4372d8bb3e6178e52fcd515519c78da348": [
+   "0xC02a/0xE72B",
+   500
+  ],
+  "0x0b599ebf4e05af48b56d38e2dde520570c366460": [
+   "0x2260/0x8236",
+   100
+  ],
+  "0x95dbb3c7546f22bce375900abfdd64a4e5bd73d6": [
+   "0x1aBa/0xA0b8",
+   500
+  ],
+  "0xe21a3956a7e73c607bf1519cfc6154f46e622cf6": [
+   "0x829f/0xC02a",
+   10000
+  ],
+  "0x9db9e0e53058c89e5b94e29621a205198648425b": [
+   "0x2260/0xdAC1",
+   3000
+  ],
+  "0x841ea2475a989eeccd27fe39967c19cb097357a3": [
+   "0x6874/0xA0b8",
+   3000
+  ],
+  "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36": [
+   "0xC02a/0xdAC1",
+   3000
+  ],
+  "0x5638bbde046ec2efc7c8f3fd8dc5a9a1016f7eeb": [
+   "0xA0b8/0xFeDC",
+   3000
+  ],
+  "0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa": [
+   "0x7f39/0xC02a",
+   100
+  ],
+  "0xeeb8f880ead7281a301ef2e6791a6bbe790603ed": [
+   "0xA0b8/0xF3e4",
+   10000
+  ],
+  "0xaed9261caa6a795178a4ab4d3be62f2d01b2c214": [
+   "0x4E3B/0xC02a",
+   3000
+  ],
+  "0xe936f0073549ad8b1fa53583600d629ba9375161": [
+   "0x6De0/0xC02a",
+   10000
+  ],
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0": [
+   "0x2260/0xC02a",
+   500
+  ],
+  "0x4baf786bd59022c942dcee4282b17d1bc681c99f": [
+   "0x9a17/0xC02a",
+   3000
+  ],
+  "0x56534741cd8b152df6d48adf7ac51f75169a83b2": [
+   "0x2260/0xdAC1",
+   500
+  ],
+  "0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8": [
+   "0xA0b8/0xC02a",
+   3000
+  ],
+  "0xc756bba710d45647715079ce50aa16aab36ded42": [
+   "0x4580/0x6874",
+   100
+  ],
+  "0xe9c761b372a9e98c966baac334a05fc8c12771b3": [
+   "0x5F64/0xC02a",
+   3000
+  ]
+ },
+ "classes": {
+  "topup": 5527,
+  "partial": 30,
+  "multi": 1262,
+  "degenerate": 1442,
+  "clean": 22,
+  "single_sided": 35
+ },
+ "tally": {
+  "firings": 8318,
+  "priced": 5027,
+  "unpriceable": 3291,
+  "with_swap": 2654,
+  "clean": 22,
+  "k_negative": 3042
+ },
+ "n_cells": 795,
+ "cells_ge30": 29,
+ "identity": {
+  "n": 22,
+  "median": 7.92009687000661e-17,
+  "q99": 2.0261570199409107e-14,
+  "max": 2.0261570199409107e-14
+ }
+}

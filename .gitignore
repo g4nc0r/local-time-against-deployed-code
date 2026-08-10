@@ -1,0 +1,74 @@
+# Foundry
+**/out/
+**/cache/
+**/broadcast/
+
+# Node
+**/node_modules/
+**/npm-debug.log*
+
+# Python build artefacts
+**/__pycache__/
+*.pyc
+
+# Lean: ship the source, never the build tree. .lake/ pulls mathlib and its
+# artefacts (several GB here, with individual files over GitHub's 100 MB
+# limit). Keep lean/*.lean, lakefile.toml, lean-toolchain, lake-manifest.json.
+**/.lake/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Syncthing
+.stfolder/
+.stversions/
+.stignore
+
+# LaTeX build artefacts (paper/ source compiles produce these alongside the .tex)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Layout of the private position-manager event lake. The anchor and the two
+# lake-reading probes resolve their inputs through it; the lake is not public
+# and neither is its file naming.
+verification/lake-layout.json
+
+# Non-public census artefacts read by the calibration sweeps at runtime.
+# The sweeps resolve them from LT_CENSUS_UNIV3 / LT_CENSUS_SENDER, or from
+# these default filenames; neither artefact is vendored here.
+calibration/item1_spectrometer/census-univ3-base.json
+calibration/item1_spectrometer/census-sender-base.json
+
+# Mainnet arm: ship the code and the captured outputs, not the raw streams.
+# m2_stream.py regenerates these at the pinned block window.
+verification/mainnet/m2_cells.json.gz
+verification/mainnet/m2_ticks.json.gz
+verification/mainnet/*.log
+
+# Internal drafts, audit notes, literature scratch
+Working Notes/
+*/Working Notes/
+
+# Internal index. README.md is the public entry point.
+_README.md

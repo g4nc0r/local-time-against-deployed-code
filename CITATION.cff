@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the underlying paper (see references below)."
+title: "Local Time Against Deployed Code: research repository"
+authors:
+  - family-names: Ryan
+    given-names: K. R.
+    alias: Gancor
+    orcid: "https://orcid.org/0009-0004-6295-7040"
+type: software
+repository-code: "https://github.com/g4nc0r/local-time-against-deployed-code"
+keywords:
+  - concentrated liquidity
+  - liquidity rebalancing
+  - automated market maker
+  - DeFi
+  - mint kerf
+  - local time
+  - impulse control
+  - jump processes
+  - Uniswap V3
+# The licence covers the code in this repository; the paper PDF and its
+# LaTeX source are (c) K. R. Ryan, all rights reserved. See the Licence
+# entry in README.md.
+license: MIT
+references:
+  - type: report
+    title: "Local Time Against Deployed Code: The Exact Cost Law of Concentrated Liquidity Rebalancing, Its Sharp Floor, and Its Inversion"
+    authors:
+      - family-names: Ryan
+        given-names: K. R.
+        orcid: "https://orcid.org/0009-0004-6295-7040"
+    year: 2026
+    institution:
+      name: "Social Science Research Network"
+    number: "7259078"
+    doi: "10.2139/ssrn.7259078"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7259078"
+    notes: "The SSRN preprint is the citable record. No code DOI is minted yet; an archival snapshot follows."
+  - type: report
+    title: "The Geometric Siphon: Existence, Equilibrium, and Directional Properties of the Residual in Concentrated Liquidity Portfolios"
+    authors:
+      - family-names: Ryan
+        given-names: K. R.
+        orcid: "https://orcid.org/0009-0004-6295-7040"
+    year: 2026
+    institution:
+      name: "Social Science Research Network"
+    number: "6686798"
+    doi: "10.2139/ssrn.6686798"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6686798"
+  - type: report
+    title: "The Hidden Microstructure of Shared Balance Concentrated Liquidity: A Master Equation for the Dust Ledger and Propagation of Chaos"
+    authors:
+      - family-names: Ryan
+        given-names: K. R.
+        orcid: "https://orcid.org/0009-0004-6295-7040"
+    year: 2026
+    institution:
+      name: "Social Science Research Network"
+    number: "6745218"
+    doi: "10.2139/ssrn.6745218"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6745218"
+  - type: report
+    title: "Operator & Quantisation Microstructure: The Frequency and Value Channels of Concentrated Liquidity Dust Flows"
+    authors:
+      - family-names: Ryan
+        given-names: K. R.
+        orcid: "https://orcid.org/0009-0004-6295-7040"
+    year: 2026
+    institution:
+      name: "Social Science Research Network"
+    number: "7166739"
+    doi: "10.2139/ssrn.7166739"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7166739"
+  - type: report
+    title: "Operator Fingerprinting: Recovering and Defending the Hidden Rebalancing Policy of Concentrated Liquidity Managers"
+    authors:
+      - family-names: Ryan
+        given-names: K. R.
+        orcid: "https://orcid.org/0009-0004-6295-7040"
+    year: 2026
+    institution:
+      name: "Social Science Research Network"
+    number: "7202340"
+    doi: "10.2139/ssrn.7202340"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202340"

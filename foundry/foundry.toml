@@ -1,0 +1,20 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.26"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+
+# Base, for the two exact-layer fork tracks. Any Base RPC URL with archive
+# support is sufficient; the public endpoint https://mainnet.base.org works.
+# Set RPC_BASE_ALCHEMY in your shell.
+[rpc_endpoints]
+base = "${RPC_BASE_ALCHEMY}"
+# Avalanche C-Chain, for the Liquidity Book track
+# (LocalTimeLBForkAvalanche). Set RPC_AVAX_ALCHEMY in your shell.
+avalanche = "${RPC_AVAX_ALCHEMY}"
+# Ethereum mainnet, for the exact-layer mainnet track
+# (LocalTimeExactLayerForkMainnet). Set RPC_ETH_ALCHEMY in your shell.
+ethereum = "${RPC_ETH_ALCHEMY}"

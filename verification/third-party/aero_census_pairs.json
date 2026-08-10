@@ -1,0 +1,302 @@
+[
+ {
+  "pool": "0xb2cc224c1c9fee385f8ad6a55b4d94e92359dc59",
+  "pair": "WETH/USDC",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0xc200f21efe67c7f41b81a854c26f9cda80593065",
+  "pair": "VIRTUAL/WETH",
+  "token0": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x6446021f4e396da3df4235c62537431372195d38",
+  "pair": "WETH/superOETHb",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3"
+ },
+ {
+  "pool": "0x82321f3beb69f503380d6b233857d5c43562e2d0",
+  "pair": "WETH/AERO",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+ },
+ {
+  "pool": "0xdfe5f275020def30993f042174fc2d335678b626",
+  "pair": "AERO/cbBTC",
+  "token0": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+  "token1": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+ },
+ {
+  "pool": "0x4ba1e3e9280facbacafa7baf4ae0b78bea60beca",
+  "pair": "WETH/SPX",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x50da645f148798f68ef2d7db7c1cb22a6819bb2c"
+ },
+ {
+  "pool": "0x4e829f8a5213c42535ab84aa40bd4adcce9cba02",
+  "pair": "WETH/BRETT",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x532f27101965dd16442e59d40670faf5ebb142e4"
+ },
+ {
+  "pool": "0x46d710c35bdfb800a18a820712310048ef8b5256",
+  "pair": "WETH/KTA",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xc0634090f2fe6c6d75e61be2b949464abb498973"
+ },
+ {
+  "pool": "0x3f0296bf652e19bca772ec3df08b32732f93014a",
+  "pair": "VIRTUAL/WETH",
+  "token0": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x70acdf2ad0bf2402c957154f944c19ef4e1cbae1",
+  "pair": "WETH/cbBTC",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+ },
+ {
+  "pool": "0x74e4c08bb50619b70550733d32b7e60424e9628e",
+  "pair": "WETH/TOSHI",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4"
+ },
+ {
+  "pool": "0xf81e1a62cbfa487e807044618661bfd4802b4982",
+  "pair": "tBTC/USDC",
+  "token0": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0x4e962bb3889bf030368f56810a9c96b83cb3e778",
+  "pair": "USDC/cbBTC",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+ },
+ {
+  "pool": "0xafb62448929664bfccb0aae22f232520e765ba88",
+  "pair": "WETH/DEGEN",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed"
+ },
+ {
+  "pool": "0x1807af3897aa6419e770d4642df7b8b06e542c02",
+  "pair": "WETH/Anon",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c"
+ },
+ {
+  "pool": "0xbe00ff35af70e8415d0eb605a286d8a45466a4c1",
+  "pair": "USDC/AERO",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+ },
+ {
+  "pool": "0x46d398a5b33709877f50c8918a7ee96f1be1d7dd",
+  "pair": "WETH/VVV",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf"
+ },
+ {
+  "pool": "0x22a52bb644f855ebd5ca2edb643ff70222d70c31",
+  "pair": "WETH/AIXBT",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825"
+ },
+ {
+  "pool": "0x7501bc8bb51616f79bfa524e464fb7b41f0b10fb",
+  "pair": "msUSD/USDC",
+  "token0": "0x526728dbc96689597f85ae4cd716d4f7fccbae9d",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0x56b92e5b391dbfb8b8028ac95a4b97f52ffeb416",
+  "pair": "WETH/KAITO",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x98d0baa52b2d063e780de12f615f963fe8537553"
+ },
+ {
+  "pool": "0x7ce345561e1690445eefa0db04f59d64b65598a8",
+  "pair": "wBLT/USDC",
+  "token0": "0x4e74d4db6c0726ccded4656d0bce448876bb4c7a",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0xb7068556049df8fb3ae77ccbb9611fe0e85b2641",
+  "pair": "USDC/ODOS",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xca73ed1815e5915489570014e024b7ebe65de679"
+ },
+ {
+  "pool": "0x50f8f7ffbd70c6c87b1668eee4e03f5ac057de3f",
+  "pair": "SYND/WETH",
+  "token0": "0x11dc28d01984079b7efe7763b533e6ed9e3722b9",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x2a36148a416cba81699b555120bd65f4682bdfd2",
+  "pair": "GAME/WETH",
+  "token0": "0x1c4cca7c5db003824208adda61bd749e55f463a3",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x088c39ee29fc30df8adc394e9f7dea33e3a26507",
+  "pair": "WETH/doginme",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x6921b130d297cc43754afba22e5eac0fbf8db75b"
+ },
+ {
+  "pool": "0x3ba9ce0f19cf3ccb631b973c83712c7e6e9585ae",
+  "pair": "WETH/WELL",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xa88594d404727625a9437c3f886c7643872296ae"
+ },
+ {
+  "pool": "0xb5f0b4ae66c14f7efaa9aa1468e8fc536a3e288c",
+  "pair": "WETH/MORPHO",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842"
+ },
+ {
+  "pool": "0xa7c2693022cfb693c198eaa743e9b54d7921588e",
+  "pair": "USDC/STAR",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xc19669a405067927865b40ea045a2baabbbe57f5"
+ },
+ {
+  "pool": "0x41d60ed9c8327ea0c6b16a44343c177e0402feea",
+  "pair": "PROMPT/cbBTC",
+  "token0": "0x30c7235866872213f68cb1f08c37cb9eccb93452",
+  "token1": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+ },
+ {
+  "pool": "0xb099c658e784b41ee435d48a8eb67e8f27285c93",
+  "pair": "WETH/B3",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xb3b32f9f8827d4634fe7d973fa1034ec9fddb3b3"
+ },
+ {
+  "pool": "0x385b47e56b73eb6549378f78f7c7cbc42c56c9e0",
+  "pair": "DRB/WETH",
+  "token0": "0x3ec2156d4c0a9cbdab4a016633b7bcf6a8d68ea2",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x7c42dd1556754be827e187ce0870e70c5e571f35",
+  "pair": "WETH/HEU",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xef22cb48b8483df6152e1423b19df5553bbd818b"
+ },
+ {
+  "pool": "0xff0df9b15c29542fa5d7efe169452507b4d648c2",
+  "pair": "USDC/AVAIL",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xd89d90d26b48940fa8f58385fe84625d468e057a"
+ },
+ {
+  "pool": "0xe077ddfb9e9d9403a8ec42d3023d17e8417ee399",
+  "pair": "GIZA/USDC",
+  "token0": "0x590830dfdf9a3f68afcdde2694773debdf267774",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0xcdd442e2de893c07146b2f1072f8e077559f9aa4",
+  "pair": "BNKR/WETH",
+  "token0": "0x22af33fe49fd1fa80c7149773dde5890d3c76f3b",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0xd23fe2db317e1a96454a2d1c7e8fc0dbf19bb000",
+  "pair": "CLANKER/WETH",
+  "token0": "0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
+  "token1": "0x4200000000000000000000000000000000000006"
+ },
+ {
+  "pool": "0x54cdd0222df6b3bc17754c2c1b3d7d4203fe3d89",
+  "pair": "WETH/REI",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x6b2504a03ca4d43d0d73776f6ad46dab2f2a4cfd"
+ },
+ {
+  "pool": "0x74f72788f4814d7ff3c49b44684aa98eee140c0e",
+  "pair": "WETH/msETH",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x7ba6f01772924a82d9626c126347a28299e98c98"
+ },
+ {
+  "pool": "0x29af315b3bd7566005f14d81c582b59e1c632ffd",
+  "pair": "WETH/HYPER",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4"
+ },
+ {
+  "pool": "0xde5ff829fef54d1bdec957d9538a306f0ead1368",
+  "pair": "USDz/USDC",
+  "token0": "0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0x3e66e55e97ce60096f74b7c475e8249f2d31a9fb",
+  "pair": "USDC/cbBTC",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+ },
+ {
+  "pool": "0x3f53f1fd5b7723ddf38d93a584d280b9b94c3111",
+  "pair": "ZORA/USDC",
+  "token0": "0x1111111111166b7fe7bd91427724b487980afc69",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0x5c45b0f48c326f79b56709d8f63ce2bee7697106",
+  "pair": "WETH/uSUI",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4"
+ },
+ {
+  "pool": "0x5d4e504eb4c526995e0cc7a6e327fda75d8b52b5",
+  "pair": "WETH/EURC",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42"
+ },
+ {
+  "pool": "0x4a79b0168296c0ef7b8f314973b82ad406a29f1b",
+  "pair": "WETH/AAVE",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x63706e401c06ac8513145b7687a14804d17f814b"
+ },
+ {
+  "pool": "0xe846373c1a92b167b4e9cd5d8e4d6b1db9e90ec7",
+  "pair": "EURC/USDC",
+  "token0": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+  "token1": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+ },
+ {
+  "pool": "0xa19acc3b4f11c46c2b1fc36b5f592af422ee338c",
+  "pair": "DEGEN/USD+",
+  "token0": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+  "token1": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376"
+ },
+ {
+  "pool": "0xe8833415bd6aee9c0c7b6aad7dc80421c3f28ca1",
+  "pair": "WETH/COOKIE",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f"
+ },
+ {
+  "pool": "0x0225ba893d5f8ecd6d2022f9dec59b34f61098a1",
+  "pair": "WETH/uSOL",
+  "token0": "0x4200000000000000000000000000000000000006",
+  "token1": "0x9b8df6e244526ab5f6e6400d331db28c8fdddb55"
+ },
+ {
+  "pool": "0x58c5649e6bc93969f4530673e8892faf762cc7e7",
+  "pair": "USDC/CHAMP",
+  "token0": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+  "token1": "0xeb6d78148f001f3aa2f588997c5e102e489ad341"
+ }
+]

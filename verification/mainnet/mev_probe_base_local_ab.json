@@ -1,0 +1,51 @@
+{
+ "block_seconds": 2.0,
+ "lookback": 20000,
+ "source": "univ3-layer.db (rebalances, swap_ticks)",
+ "per_pool": {
+  "WETH/USDC 500": {
+   "n_firings": 117496,
+   "n_delay": 114216,
+   "interior_fraction": 0.6074,
+   "u_q50": 0.4974,
+   "delay_mass_at_0": 0.0,
+   "delay_q50": 5.0,
+   "delay_q90": 1010.0
+  },
+  "WETH/USDC 3000": {
+   "n_firings": 397372,
+   "n_delay": 373956,
+   "interior_fraction": 0.5611,
+   "u_q50": 0.5317,
+   "delay_mass_at_0": 0.0,
+   "delay_q50": 35.0,
+   "delay_q90": 4841.0
+  },
+  "WETH/cbBTC 3000": {
+   "n_firings": 29591,
+   "n_delay": 27416,
+   "interior_fraction": 0.7597,
+   "u_q50": 0.4583,
+   "delay_mass_at_0": 0.0,
+   "delay_q50": 116.0,
+   "delay_q90": 1757.0
+  }
+ },
+ "A_firing_position": {
+  "n": 544459,
+  "interior_fraction": 0.5819,
+  "q10": -0.0683,
+  "q50": 0.5214,
+  "q90": 1.0817
+ },
+ "B_exit_delay_blocks": {
+  "n": 515588,
+  "_note": "delay >= 1 BY CONSTRUCTION: the tick cache carries one entry per block and the search takes blocks strictly before the firing, so a same-block correction is not observable here. The mass-at-zero question of the spec's 5.1 is answered by reading C, which orders by log index inside the block. The same construction is used on both chains, so the distributions remain comparable above zero.",
+  "mass_at_0_structural_zero": 0.0,
+  "mass_le_1": 0.1282,
+  "q50": 27.0,
+  "q90": 3969.0,
+  "q50_seconds": 54.0,
+  "q90_seconds": 7938.0
+ }
+}

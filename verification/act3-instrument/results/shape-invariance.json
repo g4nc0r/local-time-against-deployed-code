@@ -1,0 +1,24 @@
+{
+ "pools_with_both_strata_exceedances": 5,
+ "fast": {
+  "n": 50,
+  "q50": 3.9,
+  "q90": 6.48,
+  "q99": 12.4,
+  "q90_over_q50": 1.661,
+  "q99_over_q50": 3.18
+ },
+ "slow": {
+  "n": 35,
+  "q50": 3.94,
+  "q90": 6.49,
+  "q99": 24.59,
+  "q90_over_q50": 1.645,
+  "q99_over_q50": 6.238
+ },
+ "ks": {
+  "D": 0.1714,
+  "p": 0.54,
+  "verdict": "shape difference NOT detected (F4 stands)"
+ }
+}

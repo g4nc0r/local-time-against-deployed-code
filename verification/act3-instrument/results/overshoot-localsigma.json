@@ -1,0 +1,79 @@
+{
+ "benchmark_folded_normal": {
+  "median": 0.674,
+  "q99": 2.576
+ },
+ "benchmark_fraction>3": 0.0027,
+ "n_near_zero_delay_events": 4845,
+ "tests": {
+  "1d": {
+   "delay<=2blk": {
+    "n": 1279,
+    "median": 1.23,
+    "q90": 4.68,
+    "q99": 11.69,
+    "fraction_ratio>3": 0.2009
+   },
+   "delay<=5blk": {
+    "n": 3329,
+    "median": 1.27,
+    "q90": 5.1,
+    "q99": 13.38,
+    "fraction_ratio>3": 0.2235
+   },
+   "delay<=10blk": {
+    "n": 4793,
+    "median": 1.21,
+    "q90": 4.87,
+    "q99": 13.98,
+    "fraction_ratio>3": 0.2147
+   }
+  },
+  "7d": {
+   "delay<=2blk": {
+    "n": 1238,
+    "median": 1.26,
+    "q90": 4.41,
+    "q99": 11.89,
+    "fraction_ratio>3": 0.1931
+   },
+   "delay<=5blk": {
+    "n": 3165,
+    "median": 1.09,
+    "q90": 4.41,
+    "q99": 12.29,
+    "fraction_ratio>3": 0.1829
+   },
+   "delay<=10blk": {
+    "n": 4499,
+    "median": 1.08,
+    "q90": 4.35,
+    "q99": 12.24,
+    "fraction_ratio>3": 0.1809
+   }
+  },
+  "era": {
+   "delay<=2blk": {
+    "n": 1292,
+    "median": 0.01,
+    "q90": 2.06,
+    "q99": 6.53,
+    "fraction_ratio>3": 0.0433
+   },
+   "delay<=5blk": {
+    "n": 3357,
+    "median": 0.03,
+    "q90": 1.47,
+    "q99": 5.95,
+    "fraction_ratio>3": 0.039
+   },
+   "delay<=10blk": {
+    "n": 4845,
+    "median": 0.03,
+    "q90": 1.82,
+    "q99": 6.25,
+    "fraction_ratio>3": 0.0433
+   }
+  }
+ }
+}

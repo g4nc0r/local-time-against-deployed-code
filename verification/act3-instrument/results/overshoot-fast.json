@@ -1,0 +1,72 @@
+{
+ "benchmarks": {
+  "half_normal_tail": {
+   "q90_q50": 2.44,
+   "q99_q50": 3.82
+  },
+  "folded_normal_ratio": {
+   "median": 0.674,
+   "q99": 2.576
+  }
+ },
+ "all_events_tail": {
+  "n_cells": 322,
+  "n_events": 63882,
+  "q90_q50": 2.05,
+  "q99_q50": 3.8
+ },
+ "fast_operator_strata": {
+  "op_median_delay<=50blk": {
+   "n_operators": 22,
+   "tail": {
+    "n_cells": 23,
+    "n_events": 2493,
+    "q90_q50": 2.27,
+    "q99_q50": 4.34
+   }
+  },
+  "op_median_delay<=100blk": {
+   "n_operators": 31,
+   "tail": {
+    "n_cells": 35,
+    "n_events": 3268,
+    "q90_q50": 2.3,
+    "q99_q50": 4.33
+   }
+  },
+  "op_median_delay<=300blk": {
+   "n_operators": 65,
+   "tail": {
+    "n_cells": 83,
+    "n_events": 16367,
+    "q90_q50": 2.37,
+    "q99_q50": 4.72
+   }
+  }
+ },
+ "near_zero_delay_jump_test": {
+  "delay<=2blk": {
+   "n": 1292,
+   "ratio_median": 0.01,
+   "ratio_q90": 2.06,
+   "ratio_q99": 6.53,
+   "fraction_ratio>3": 0.0433
+  },
+  "delay<=5blk": {
+   "n": 3357,
+   "ratio_median": 0.03,
+   "ratio_q90": 1.47,
+   "ratio_q99": 5.95,
+   "fraction_ratio>3": 0.039
+  },
+  "delay<=10blk": {
+   "n": 4845,
+   "ratio_median": 0.03,
+   "ratio_q90": 1.82,
+   "ratio_q99": 6.25,
+   "fraction_ratio>3": 0.0433
+  }
+ },
+ "n_events": 63961,
+ "pools_with_sigma": 50
+}

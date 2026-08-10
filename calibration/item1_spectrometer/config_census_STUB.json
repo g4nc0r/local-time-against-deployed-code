@@ -1,0 +1,11 @@
+{
+  "GATED": true,
+  "_comment_1": "This stub marks the slot where the census-derived geometry mix plugs in. The mix is drawn from an operator-keyed census (trigger-fraction, width and filter distributions); those source numbers are not vendored here and are not restated in any captured output.",
+  "_comment_2": "The live production draw is in production_sweep.py, which resolves the census artefact by path at runtime. This stub is retained as the record of the convention: published artefacts carry recovery curves and draw shape only, never the census tables.",
+  "seed": null,
+  "n_pools": null,
+  "world": null,
+  "population": {"operators_per_pool": null, "geometry_mix": "CENSUS-DERIVED, GATED"},
+  "inversion": {"kappa": 3.0, "abar": 10, "trail_blocks": 43200,
+                "o_ref": null, "min_events": 300}
+}

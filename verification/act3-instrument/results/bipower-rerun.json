@@ -1,0 +1,244 @@
+{
+ "population_bipower": {
+  "1d": {
+   "delay<=2blk": {
+    "n": 1279,
+    "median": 1.53,
+    "q99": 18.59,
+    "fraction_ratio>3": 0.2768
+   },
+   "delay<=5blk": {
+    "n": 3329,
+    "median": 1.64,
+    "q99": 19.34,
+    "fraction_ratio>3": 0.304
+   },
+   "delay<=10blk": {
+    "n": 4793,
+    "median": 1.6,
+    "q99": 20.84,
+    "fraction_ratio>3": 0.2992
+   }
+  },
+  "7d": {
+   "delay<=2blk": {
+    "n": 1238,
+    "median": 1.51,
+    "q99": 19.23,
+    "fraction_ratio>3": 0.2496
+   },
+   "delay<=5blk": {
+    "n": 3165,
+    "median": 1.39,
+    "q99": 19.02,
+    "fraction_ratio>3": 0.2635
+   },
+   "delay<=10blk": {
+    "n": 4499,
+    "median": 1.43,
+    "q99": 19.24,
+    "fraction_ratio>3": 0.2643
+   }
+  }
+ },
+ "population_rv_captured": {
+  "1d": {
+   "delay<=2blk": {
+    "n": 1279,
+    "median": 1.23,
+    "q90": 4.68,
+    "q99": 11.69,
+    "fraction_ratio>3": 0.2009
+   },
+   "delay<=5blk": {
+    "n": 3329,
+    "median": 1.27,
+    "q90": 5.1,
+    "q99": 13.38,
+    "fraction_ratio>3": 0.2235
+   },
+   "delay<=10blk": {
+    "n": 4793,
+    "median": 1.21,
+    "q90": 4.87,
+    "q99": 13.98,
+    "fraction_ratio>3": 0.2147
+   }
+  },
+  "7d": {
+   "delay<=2blk": {
+    "n": 1238,
+    "median": 1.26,
+    "q90": 4.41,
+    "q99": 11.89,
+    "fraction_ratio>3": 0.1931
+   },
+   "delay<=5blk": {
+    "n": 3165,
+    "median": 1.09,
+    "q90": 4.41,
+    "q99": 12.29,
+    "fraction_ratio>3": 0.1829
+   },
+   "delay<=10blk": {
+    "n": 4499,
+    "median": 1.08,
+    "q90": 4.35,
+    "q99": 12.24,
+    "fraction_ratio>3": 0.1809
+   }
+  }
+ },
+ "perpool_bipower": {
+  "0x04d25d8f94a2018f8ddde1e7941c625fa1a2c7ce": {
+   "n": 241,
+   "fraction>3": 0.1037,
+   "wilson95": [
+    0.0713,
+    0.1486
+   ]
+  },
+  "0x42d4a22cad0f5a49681a5715ce994af73a43b76b": {
+   "n": 289,
+   "fraction>3": 0.3668,
+   "wilson95": [
+    0.3133,
+    0.4238
+   ]
+  },
+  "0x4e962bb3889bf030368f56810a9c96b83cb3e778": {
+   "n": 347,
+   "fraction>3": 0.2911,
+   "wilson95": [
+    0.2458,
+    0.3409
+   ]
+  },
+  "0x51663b8a28e7ea197c5ccf983afc084da0a8023d": {
+   "n": 54,
+   "fraction>3": 0.1481,
+   "wilson95": [
+    0.077,
+    0.266
+   ]
+  },
+  "0x659be70647b0f63217d60e077f4417b1ecc65064": {
+   "n": 195,
+   "fraction>3": 0.1026,
+   "wilson95": [
+    0.0674,
+    0.1531
+   ]
+  },
+  "0x6c561b446416e1a00e8e93e221854d6ea4171372": {
+   "n": 67,
+   "fraction>3": 0.5672,
+   "wilson95": [
+    0.4481,
+    0.679
+   ]
+  },
+  "0x70acdf2ad0bf2402c957154f944c19ef4e1cbae1": {
+   "n": 654,
+   "fraction>3": 0.3165,
+   "wilson95": [
+    0.282,
+    0.3531
+   ]
+  },
+  "0x72ab388e2e2f6facef59e3c3fa2c4e29011c2d38": {
+   "n": 76,
+   "fraction>3": 0.1579,
+   "wilson95": [
+    0.0927,
+    0.256
+   ]
+  },
+  "0x7c7420dd105e2779316423ba3e973f434315efa9": {
+   "n": 88,
+   "fraction>3": 0.0682,
+   "wilson95": [
+    0.0316,
+    0.1409
+   ]
+  },
+  "0x8df6dd38d718bd726374521c2dcfe90eb9cb7d43": {
+   "n": 75,
+   "fraction>3": 0.6,
+   "wilson95": [
+    0.4869,
+    0.7034
+   ]
+  },
+  "0x95dada6bc214a86af204250f7b6ff873b52e0289": {
+   "n": 476,
+   "fraction>3": 0.1765,
+   "wilson95": [
+    0.1449,
+    0.2133
+   ]
+  },
+  "0x9e48d016ee76cf53e2de8dc8058c7549c8c202df": {
+   "n": 1622,
+   "fraction>3": 0.4149,
+   "wilson95": [
+    0.3912,
+    0.4391
+   ]
+  },
+  "0xa25773f75d7190e130d501509d22592151db3915": {
+   "n": 33,
+   "fraction>3": 0.4545,
+   "wilson95": [
+    0.2984,
+    0.6201
+   ]
+  },
+  "0xb30540172f1b37d1ee1d109e49f883e935e69219": {
+   "n": 356,
+   "fraction>3": 0.0787,
+   "wilson95": [
+    0.055,
+    0.1113
+   ]
+  },
+  "0xbe4c36b9542610df83ca690c8b5bc53bbbc5d542": {
+   "n": 36,
+   "fraction>3": 0.0,
+   "wilson95": [
+    0.0,
+    0.0964
+   ]
+  },
+  "0xe5b5f522e98b5a2baae212d4da66b865b781db97": {
+   "n": 71,
+   "fraction>3": 0.0423,
+   "wilson95": [
+    0.0145,
+    0.117
+   ]
+  }
+ },
+ "perpool_rv_captured": {
+  "0x04d25d8f94a2018f8ddde1e7941c625fa1a2c7ce": 0.0581,
+  "0x42d4a22cad0f5a49681a5715ce994af73a43b76b": 0.1869,
+  "0x4e962bb3889bf030368f56810a9c96b83cb3e778": 0.2565,
+  "0x51663b8a28e7ea197c5ccf983afc084da0a8023d": 0.1296,
+  "0x659be70647b0f63217d60e077f4417b1ecc65064": 0.0564,
+  "0x6c561b446416e1a00e8e93e221854d6ea4171372": 0.5224,
+  "0x70acdf2ad0bf2402c957154f944c19ef4e1cbae1": 0.2049,
+  "0x72ab388e2e2f6facef59e3c3fa2c4e29011c2d38": 0.0921,
+  "0x7c7420dd105e2779316423ba3e973f434315efa9": 0.0227,
+  "0x8df6dd38d718bd726374521c2dcfe90eb9cb7d43": 0.4267,
+  "0x95dada6bc214a86af204250f7b6ff873b52e0289": 0.187,
+  "0x9e48d016ee76cf53e2de8dc8058c7549c8c202df": 0.2744,
+  "0xa25773f75d7190e130d501509d22592151db3915": 0.5455,
+  "0xb30540172f1b37d1ee1d109e49f883e935e69219": 0.1152,
+  "0xbe4c36b9542610df83ca690c8b5bc53bbbc5d542": 0.0,
+  "0xe5b5f522e98b5a2baae212d4da66b865b781db97": 0.0
+ },
+ "perpool_bipower_span": [
+  0.0,
+  0.6
+ ]
+}

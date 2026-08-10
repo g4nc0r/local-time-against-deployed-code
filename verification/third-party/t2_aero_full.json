@@ -1,0 +1,35 @@
+{
+ "venue": "aerodrome-slipstream",
+ "sampled_blocks": 5200000,
+ "era": [
+  44000000,
+  49200000
+ ],
+ "classes": {
+  "same_range": 88889,
+  "author": 37220,
+  "degenerate": 7755,
+  "topup": 95334,
+  "multi": 50040,
+  "single_sided": 2385,
+  "clean": 253,
+  "partial": 120
+ },
+ "n_clean": 253,
+ "n_operators": 10,
+ "n_ops_ge10": 4,
+ "n_firings_sampled": 125980,
+ "id_err": {
+  "median": 1.1102230246251565e-16,
+  "q99": 0.0004891171533070848,
+  "max": 0.0540672212702758
+ },
+ "mint_err": {
+  "median": 3.302516197962939e-10,
+  "q99": 0.0014649470671281109
+ },
+ "price_consist": {
+  "median": 1.61395139696506e-11,
+  "q99": 7.710017534854683e-05
+ }
+}

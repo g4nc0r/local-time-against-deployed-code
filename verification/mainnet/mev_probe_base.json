@@ -1,0 +1,72 @@
+{
+ "block_seconds": 2.0,
+ "window_blocks": 5200000,
+ "window_days": 120.37037037037037,
+ "n_position_events": 2002351,
+ "n_firings": 189207,
+ "A_firing_position": {
+  "n": 181787,
+  "interior_fraction": 0.4291,
+  "q10": -0.09,
+  "q50": 0.5222,
+  "q90": 1.1017
+ },
+ "B_exit_delay_blocks": {
+  "n": 178668,
+  "_note": "delay >= 1 by construction (the tick cache holds one entry per block, searched strictly before the firing block), identically on both chains. Same-block correction is reading C.",
+  "mass_at_0_structural_zero": 0.0,
+  "mass_le_1": 0.1046,
+  "q50": 213,
+  "q90": 3557,
+  "q50_seconds": 426.0,
+  "q90_seconds": 7114.0
+ },
+ "C_same_block_adjacency": {
+  "firings": 189207,
+  "own_swap_share": 0.1802,
+  "external_swap_share": 0.2253,
+  "backrun_share": 0.1316,
+  "frontrun_share": 0.1312,
+  "sandwich_share": 0.0374,
+  "null": {
+   "_what": "expected counts if the firing sat at a uniformly random position among the block's external swaps; excess over this is placement, agreement is ambient traffic",
+   "firings_with_external_swaps": 42632,
+   "mean_external_swaps_in_those_blocks": 2.05,
+   "expected_backrun": 25700.0,
+   "observed_backrun": 24894,
+   "expected_frontrun": 25700.0,
+   "observed_frontrun": 24823,
+   "expected_sandwich": 8768.0,
+   "observed_sandwich": 7085,
+   "backrun_excess_ratio": 0.969,
+   "sandwich_excess_ratio": 0.808
+  }
+ },
+ "D_jit": {
+  "_what": "mint-then-burn inside one block is JIT; burn-then-mint of the same range is fee compounding, counted apart",
+  "jit_positions": 2405,
+  "jit_share_of_position_events": 0.0024,
+  "same_range_remints": 179085,
+  "remint_share_of_position_events": 0.1789
+ },
+ "per_pool": {
+  "WETH/USDC 3000": {
+   "firings": 138664,
+   "backrun": 15161,
+   "sandwich": 4438,
+   "jit": 847
+  },
+  "WETH/USDC 500": {
+   "firings": 45311,
+   "backrun": 9657,
+   "sandwich": 2630,
+   "jit": 1551
+  },
+  "WETH/cbBTC 3000": {
+   "firings": 5232,
+   "backrun": 76,
+   "sandwich": 17,
+   "jit": 7
+  }
+ }
+}
