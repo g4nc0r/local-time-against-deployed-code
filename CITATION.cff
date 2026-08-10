@@ -7,6 +7,7 @@ authors:
     alias: Gancor
     orcid: "https://orcid.org/0009-0004-6295-7040"
 type: software
+doi: "10.5281/zenodo.21871949"
 repository-code: "https://github.com/g4nc0r/local-time-against-deployed-code"
 keywords:
   - concentrated liquidity
@@ -35,7 +36,7 @@ references:
     number: "7259078"
     doi: "10.2139/ssrn.7259078"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7259078"
-    notes: "The SSRN preprint is the citable record. No code DOI is minted yet; an archival snapshot follows."
+    notes: "The SSRN preprint is the citable record for the paper; the repository is archived separately on Zenodo."
   - type: report
     title: "The Geometric Siphon: Existence, Equilibrium, and Directional Properties of the Residual in Concentrated Liquidity Portfolios"
     authors:

@@ -27,6 +27,7 @@ including the jump measure that diffusive treatments set aside.
 | **Author** | K. R. Ryan, independent researcher |
 | **Contact** | [gancor.xyz](https://gancor.xyz) · ORCID [0009-0004-6295-7040](https://orcid.org/0009-0004-6295-7040) · code and reproduction questions via [GitHub Issues](https://github.com/g4nc0r/local-time-against-deployed-code/issues) |
 | **Companion papers** | [*The Geometric Siphon* (SSRN 6686798)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6686798) · [*The Hidden Microstructure of Shared Balance Concentrated Liquidity* (SSRN 6745218)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6745218) · [*Operator & Quantisation Microstructure* (SSRN 7166739)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7166739) · [*Operator Fingerprinting* (SSRN 7202340)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7202340) |
+| **Code DOI** | [![DOI](https://zenodo.org/badge/1329266037.svg)](https://doi.org/10.5281/zenodo.21871949) - verification code and Lean formalisation |
 | **Python** | 3.11 or later; standard library only for the three act harnesses |
 | **Foundry** | `forge` ≥ 1.5; Solidity 0.8.26 |
 | **Lean** | 4.32.2 via elan; mathlib pinned in `lean/lake-manifest.json` |
@@ -34,9 +35,11 @@ including the jump measure that diffusive treatments set aside.
 
 **Status.** Preprint submitted to SSRN as
 [7259078](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7259078);
-the SSRN preprint is the citable record. No code DOI is minted yet, and
-an archival snapshot follows. The paper's code-availability section
-names this repository, so the two should be kept in step.
+the SSRN preprint is the citable record, and an immutable archival
+snapshot of this repository is on Zenodo at
+[10.5281/zenodo.21871949](https://doi.org/10.5281/zenodo.21871949).
+The paper's code-availability section names both, so they should be
+kept in step.
 
 ## Paper
 
